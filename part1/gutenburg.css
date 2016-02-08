@@ -1,0 +1,108 @@
+body { 
+	margin:5%;
+	background:#ffdfaa;
+	text-align:justify
+}
+
+pre { 
+	font-style: italic;
+	padding-top: 5em;
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-bottom: 0.2em;
+	font-size: 1.5em;
+	margin-right: 50%;
+	margin-bottom: 5em;
+	text-align: justify;
+
+}
+
+.book {
+ margin-left: 5%;
+ margin-right: 5%;
+ text-align: justify;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+table, blockquote, TABLE.bold {
+	font-family: serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	overflow: auto;
+	width: 70%;
+	height: 35em;
+	overflow: auto;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: justify;
+}
+
+a:hover {
+	color: #ff00ff;
+}
+
+P { 
+	text-indent: 1em;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	font-family: serif;
+	font-size: 1.4em;
+}
+
+H1,H2,H3,H4,H5,H6 { 
+	text-align: center;
+	color: #2D0D0D;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+H1 {
+	font-size: 2.55em;
+}
+
+H2 {
+	font-size: 2.35em;
+}
+
+H3 {
+	font-size: 2.2em;
+}
+
+H4 {
+	font-size: 2.05em;
+}
+
+H5 {
+	font-size: 1.85em;
+}
+
+H6 {
+	font-size: 1.65em;
+}
+
+hr { 
+	width: 71%;
+	height: 0.3em;
+	text-align: center;
+	color: #2D0D0D;
+	background-color: #2D0D0D;
+}
+
+.toc { 
+	text-indent: 1em;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	font-family: serif;
+	font-size: 1.4em;
+}
+
+.fig { 
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
