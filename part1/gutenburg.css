@@ -1,3 +1,9 @@
+.book {
+ margin-left: 5%;
+ margin-right: 5%;
+ text-align: justify;
+}
+
 body { 
 	margin:5%;
 	background:#ffdfaa;
@@ -14,13 +20,6 @@ pre {
 	margin-right: 50%;
 	margin-bottom: 5em;
 	text-align: justify;
-
-}
-
-.book {
- margin-left: 5%;
- margin-right: 5%;
- text-align: justify;
 }
 
 .bold {
@@ -28,12 +27,12 @@ pre {
 }
 
 table, blockquote, TABLE.bold {
-	font-family: serif;
-	font-weight: bold;
 	font-size: 1.4em;
+	font-style: italic;
+	font-family: serif;
 	overflow: auto;
 	width: 70%;
-	height: 35em;
+	height: 30em;
 	overflow: auto;
 	padding-top: 2em;
 	padding-bottom: 2em;
@@ -102,7 +101,56 @@ hr {
 }
 
 .fig { 
+	position: relative;
 	display:block;
-	margin:0 auto;
+	margin:2% auto;
 	text-align:center;
+	border: 0.6em solid;
+	border-color: #2D0D0D;
+	font-size: 1.3em;
+}
+
+.fig img {
+  max-height: 180em;
+}
+
+.fig .caption, .figleft .caption,
+.figright .caption {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+	color: black;
+	font-size: 1.5em;
+	background: white;
+	width: 100%;
+	opacity: 0.45;
+}
+
+.middle { 
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+}
+
+.figleft {
+	position: relative;
+	float: left;
+	margin-left: 0%;
+	margin-right: 1%;
+	border: 0.6em solid;
+	border-color: #2D0D0D;
+	font-size: 1.3em;
+}
+
+.figright {
+	position: relative;
+	float: right;
+	margin-right: 0%;
+	margin-left: 1%;
+	border: 0.6em solid;
+	border-color: #2D0D0D;
+	font-size: 1.3em;
 }
