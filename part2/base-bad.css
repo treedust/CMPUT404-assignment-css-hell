@@ -4,7 +4,7 @@
 	margin-top: 1.8em; 
 	margin-left: 35%;
 	margin-bottom: 1.8em;
-	color: pink;
+	color: #ffe6ff;
 }
 
 .right {
@@ -28,13 +28,21 @@ img {
 
 body {
 	background-image: url("images/space.jpg");
+	background-size: 40%;
 	color: red;
+}
+
+div {
+	background-image: url("images/space.jpg");
+	background-size: 25%;
 }
 
 img:hover {
 	border-color: blue;
 }
 
-body:hover {
+h3:hover {
+	box-shadow: 3em 3em 3em yellow;
+	background-size: 2em;
 	background-image: url("images/tree.png");
 }

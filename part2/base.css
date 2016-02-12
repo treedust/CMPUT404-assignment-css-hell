@@ -1,10 +1,14 @@
 div.text{
 	width: 100%;
+	padding-right: 20px;
+    position: relative;
+    margin-top:70px;
 }
 
 div#leftside{
 	float: left;
 	width: 40%;
+	margin-right: 5%;
 }
 
 div#rightside{
@@ -12,12 +16,11 @@ div#rightside{
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 30%;
-	vertical-align:top;
-	display: inline-block;
+
 }
 
 .left {
-	width: 30em;
+	
 	text-align: left;
 	margin-top: 1.8em; 
 	margin-left: 35%;
@@ -26,6 +29,7 @@ div#rightside{
 	position: relative;
 	top: 0px;
 	right: 10%;
+	clear:both
 }
 
 .right {
@@ -36,6 +40,7 @@ div#rightside{
 	margin-bottom: 1.8em;
 	position: relative;
 	top: 0px;
+	clear:both
 }
 
 div.darkBG {
@@ -43,10 +48,11 @@ div.darkBG {
 	padding-left: 1.3em;
 	padding-right: 1.3em;
 	width: 30em;
+	clear:both
 }
 
 img {
-	max-height: 40em;
+	max-height: 30em;
 	position: relative;
 	right: 10%;
 	margin-left: 25%;
