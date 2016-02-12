@@ -6,8 +6,12 @@
 
 body { 
 	margin:5%;
-	background:#ffdfaf;
+	background:#ffcf9a;
 	text-align:justify
+}
+
+p {
+	font-weight: bold;
 }
 
 pre { 
