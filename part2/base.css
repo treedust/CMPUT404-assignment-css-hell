@@ -11,12 +11,12 @@ div#leftside{
 	float: left;
 	width: 40%;
 	margin-left: 10%;
-	margin-right: 5%;
 }
 
 div#rightside{
 	float: right;
 	margin-right: 15%;
+	margin-left: 5%;
 	width: 30%;
 
 }
@@ -26,7 +26,8 @@ div#rightside{
 	text-align: left;
 	margin-top: 1.8em; 
 	margin-left: 35%;
-	margin-right: 5%;
+	margin-right: 8%;
+	padding-right: 0.5em;
 	margin-bottom: 1.8em;
 	position: relative;
 	top: 0px;
@@ -39,6 +40,7 @@ div#rightside{
 	text-align: left;
 	margin-top: 1.8em; 
 	margin-right: 35%;
+	padding-left: 0.5em;
 	margin-bottom: 1.8em;
 	position: relative;
 	top: 0px;
@@ -49,6 +51,7 @@ div.darkBG {
 	background-color: #cfcfbf;
 	padding-left: 1.3em;
 	padding-right: 1.3em;
+	margin-left: 2.5em;
 	width: 30em;
 	clear:both
 }

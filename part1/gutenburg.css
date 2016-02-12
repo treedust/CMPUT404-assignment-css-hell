@@ -114,11 +114,14 @@ hr {
 	text-align:center;
 	border: 0.6em solid;
 	border-color: #2D0D0D;
+	padding: 2em 2em 2em 2em;
 	font-size: 1.3em;
+	width: 50%;
 }
 
-.fig img {
-  max-height: 180em;
+img {
+  max-height: 100em;
+  width: 50%; 
 }
 
 .fig .caption, .figleft .caption,
