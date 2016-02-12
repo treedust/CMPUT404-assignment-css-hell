@@ -24,7 +24,7 @@ Code is licensed under the Apache 2.0 license.
 
 PART 1
 =================
-Removed gutenburg inline css then added my css document to be part of of how the html is displayed.
+Removed gutenburg inline css then added my css document to be part of of how the html is displayed with a link tag <link href="gutenburg.css" rel="stylesheet" type="text/css">.
 As well have added a div with the class scroll to the contents table/blockquote
 Move the CONTENTS title outside of the blockquote and div with class scroll
 for war and peace so it would not be part of the scrolling div 
