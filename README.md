@@ -27,4 +27,10 @@ PART 1
 Removed gutenburg inline css then added my css document to be part of of how the html is displayed with a link tag <link href="gutenburg.css" rel="stylesheet" type="text/css">.
 As well have added a div with the class scroll to the contents table/blockquote
 Move the CONTENTS title outside of the blockquote and div with class scroll
-for war and peace so it would not be part of the scrolling div 
+for war and peace so it would not be part of the scrolling div
+
+PART 2
+=================
+images from: 
+https://pixabay.com/en/glynn-fractal-tree-of-life-916474/
+https://pixabay.com/en/banner-header-universe-star-all-1176677/

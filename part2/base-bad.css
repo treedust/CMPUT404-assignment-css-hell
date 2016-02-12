@@ -1,0 +1,40 @@
+.left {
+	width: 30em;
+	text-align: left;
+	margin-top: 1.8em; 
+	margin-left: 35%;
+	margin-bottom: 1.8em;
+	color: pink;
+}
+
+.right {
+	width: 30em;
+	text-align: left;
+	margin-top: 1.8em; 
+	margin-left: 35%;
+	margin-bottom: 1.8em;
+	color: red;
+}
+
+img {
+	max-height: 40em;
+	position: relative;
+	right: 10%;
+	margin-left: 25%;
+	margin-right: 5%;
+	border: 0.7em solid;
+	border-color: #afafbf;
+}
+
+body {
+	background-image: url("images/space.jpg");
+	color: red;
+}
+
+img:hover {
+	border-color: blue;
+}
+
+body:hover {
+	background-image: url("images/tree.png");
+}

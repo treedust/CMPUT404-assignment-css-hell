@@ -1,0 +1,60 @@
+div.text{
+	width: 100%;
+}
+
+div#leftside{
+	float: left;
+	width: 40%;
+}
+
+div#rightside{
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 30%;
+	vertical-align:top;
+	display: inline-block;
+}
+
+.left {
+	width: 30em;
+	text-align: left;
+	margin-top: 1.8em; 
+	margin-left: 35%;
+	margin-right: 5%;
+	margin-bottom: 1.8em;
+	position: relative;
+	top: 0px;
+	right: 10%;
+}
+
+.right {
+	width: 30em;
+	text-align: left;
+	margin-top: 1.8em; 
+	margin-right: 35%;
+	margin-bottom: 1.8em;
+	position: relative;
+	top: 0px;
+}
+
+div.darkBG {
+	background-color: #cfcfbf;
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+	width: 30em;
+}
+
+img {
+	max-height: 40em;
+	position: relative;
+	right: 10%;
+	margin-left: 25%;
+	margin-right: 5%;
+	border: 0.7em solid;
+	border-color: #afafbf;
+}
+
+body {
+	background-color: #f0f4f5;
+}
