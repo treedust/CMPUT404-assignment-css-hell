@@ -6,7 +6,7 @@
 
 body { 
 	margin:5%;
-	background:#ffdfaa;
+	background:#ffdfaf;
 	text-align:justify
 }
 
@@ -27,18 +27,25 @@ pre {
 }
 
 table, blockquote, TABLE.bold {
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-style: italic;
 	font-family: serif;
+	height:35em;
+}
+
+.scroll {
+	height:35em;
 	overflow: auto;
 	width: 70%;
-	height: 30em;
+	height: 14em;
 	overflow: auto;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin-left: 15%;
 	margin-right: 15%;
 	text-align: justify;
+	background-color: #fccf9a;
+	box-shadow: 1.4em 1.6em 0.6em #ffd58a;
 }
 
 a:hover {
