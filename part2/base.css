@@ -1,20 +1,22 @@
 div.text{
-	width: 100%;
+	width: 90%;
 	padding-right: 20px;
     position: relative;
-    margin-top:70px;
+    margin-top:5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 div#leftside{
 	float: left;
 	width: 40%;
+	margin-left: 10%;
 	margin-right: 5%;
 }
 
 div#rightside{
 	float: right;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-right: 15%;
 	width: 30%;
 
 }

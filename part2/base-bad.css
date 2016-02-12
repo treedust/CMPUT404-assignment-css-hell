@@ -37,6 +37,10 @@ div {
 	background-size: 25%;
 }
 
+li:hover {
+	background-color: red;
+}
+
 img:hover {
 	border-color: blue;
 }
